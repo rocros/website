@@ -1,5 +1,12 @@
 language: php
 
+php:
+  - 5.3
+  - 5.4
+  - 5.5
+
+script: find . -type f -name *.php | xargs -n1 php -l 
+
 deploy:
   provider:
     secure: "Q9O2oJeqKaKkc1NOjaOXBaRPsaF1pRGmCMlYx9Eyj02uJ2nqsPlkCGldI9qmdUc1qJ/hnynm8iaKG0cCiZQ2WrGpWDf+Cix3q7UGr8FWTbz+BGdoZB0PcjokZ6V0VCSDVkrJXERJ8FUoz17lVGb4/x5I6N8+iyPn9uIoERyH2e0="
