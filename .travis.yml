@@ -1,0 +1,14 @@
+language: php
+
+deploy:
+  provider:
+    secure: "Q9O2oJeqKaKkc1NOjaOXBaRPsaF1pRGmCMlYx9Eyj02uJ2nqsPlkCGldI9qmdUc1qJ/hnynm8iaKG0cCiZQ2WrGpWDf+Cix3q7UGr8FWTbz+BGdoZB0PcjokZ6V0VCSDVkrJXERJ8FUoz17lVGb4/x5I6N8+iyPn9uIoERyH2e0="
+  app:
+    secure: "H3FTsXmplar8mz4sTSJkTDC9uLfVGvEsaPFOy9LsSH5P+1CoNCU7J/LL2X4SGDO3XJqMHo3FwqJtKwRwV+OF+hHdNicQdj9AzD+3exbzu2YAx91XRMOfsSHQ+qe9NhEUdXci78BcaxDa1Jb3deg7K2dtBNbLLeLumEOKiV3UlnI="
+  api_key: 
+    secure: "FjxMtOL3cmtMkBGn80t6xeKQiQvtxZGssSTqm161ARzagNrLjfeDmd03z/tM13/pC8sV4HU9iCiNRJs5wYLsrCR1HC2MzEqOH0rgwaQ0KO9YsiCroPIEJhTKK+kRv0wVtzZBJ6uLkK2fVZJreakBoT6PGSQxkUJpre4q8EUDfg4="
+
+notifications:
+  hipchat:
+    rooms:
+      secure: "RmSeVdLBznAniVILhdvzG/2PDJBBw5jGRzqkGebyq/aOHqJm2oitImO0ywoem/ldMnW9UhwiNC/tnO+6nMGVpb/RRhOBcudiCA4C2LMq/M10GN5+3i+PFRu4VHqWGaiC/TVXtewMjfx2kqffFe4nVADQXk8H37nMCjIU+TqRRo8="
