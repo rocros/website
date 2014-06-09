@@ -31,7 +31,7 @@
 <body>
   <div class="welcome">
     <img src="/img/logo.jpg" alt="rocros" />
-    <h1>coming soon ...</h1>
+    <h1>Coming Soon ...</h1>
   </div>
 </body>
 </html>
