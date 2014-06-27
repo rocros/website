@@ -15,9 +15,6 @@ deploy:
     secure: "XPbWohtCwWs0LhLIN11Z/6TrWLlbVAkxCfS9cVPdqITn17fYOLdQS1lI8Y62431ze9utQrX/76FfOVuKMaVbtf6GSUI6OUtBTtStZgsAfXXB0VO+Vj9iAN6N3FxOcadIvLhBw3vhFf5vgApeqcIamlIYxBrf9KTFs23ILq+PRPI="
   api_key: 
     secure: "FjxMtOL3cmtMkBGn80t6xeKQiQvtxZGssSTqm161ARzagNrLjfeDmd03z/tM13/pC8sV4HU9iCiNRJs5wYLsrCR1HC2MzEqOH0rgwaQ0KO9YsiCroPIEJhTKK+kRv0wVtzZBJ6uLkK2fVZJreakBoT6PGSQxkUJpre4q8EUDfg4="
-  on:
-    php: 5.5
-    branch: master develop
 
 notifications:
   hipchat:
