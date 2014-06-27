@@ -14,6 +14,8 @@ deploy:
     develop: rocros-dev
   api_key: 
     secure: "FjxMtOL3cmtMkBGn80t6xeKQiQvtxZGssSTqm161ARzagNrLjfeDmd03z/tM13/pC8sV4HU9iCiNRJs5wYLsrCR1HC2MzEqOH0rgwaQ0KO9YsiCroPIEJhTKK+kRv0wVtzZBJ6uLkK2fVZJreakBoT6PGSQxkUJpre4q8EUDfg4="
+  on:
+    php: 5.5
 
 notifications:
   hipchat:
